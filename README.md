@@ -5,7 +5,7 @@
 * [Features](#features)
 * [Usage](#usage)
 * [Installation](#installation)
-* [Technologies used](#technnologies-used)
+* [Technologies used](#technologies-used)
 * [Screenshots](#screenshots)
 
 
@@ -16,8 +16,8 @@ It can perform sorting on 3 different data types(numbers, words, lines) and in 3
 
 ## Features
 
-- sort numbers, words and whole lines 
-- get occurrences count for every element
+- Sort numbers, words and whole lines 
+- Get occurrences count for every element
 
 ## Usage
 
@@ -27,26 +27,19 @@ This program can be used directly with Command Line Interface or program argumen
 
 To use Sorter with CLI you just need to specify data type and sort type and then you will be asked to enter data to sort.
 
-Correct input form: DATA_TYPE SORT_TYPE
-Available data types:
-- numbers
-- words
-- lines
-Available sort types:
-- ascending
-- descending
-- occurrences
+Correct input form: `DATA_TYPE SORT_TYPE`<br/>
+Available data types: numbers, words, lines. Available sort types: ascending, descending, occurrences.
 
 ### Arguments
 
-`-d, --data-type DATA_TYPE`         data type to sort
-`-s, --sort-type SORT_TYPE` 		sort method
-`-i, --input-file INPUTFILENAME`	name of the file with input data
-`-o, --output-file OUTPUTFILENAME`	name of the file with output data (default: INPUTFILENAME)
+`-d, --data-type DATA_TYPE` - data type to sort<br/>
+`-s, --sort-type SORT_TYPE` - sort method<br/>
+`-i, --input-file INPUTFILENAME` - name of the file with input data<br/>
+`-o, --output-file OUTPUTFILENAME` - name of the file with output data (default: INPUTFILENAME)
 
 ## Installation
 
-1. Import this repository to some folder with `git clone repourl`
+1. Import this repository to some folder with `git clone https://github.com/adrian-jrczk/Sorter.git`
 2. Open this folder and install with `mvn clean install`
 3. In `target` folder there will be executable jar file `sorter.jar` which you can move freely and run with `java -jar sorter.jar`
 
@@ -57,4 +50,5 @@ Available sort types:
 ## Screenshots
 
 ![screenshot 1](images/screenshot01.png?raw=true "Usage example 1")
+***
 ![screenshot 2](images/screenshot02.png?raw=true "Usage example 2")
